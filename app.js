@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 const api = process.env.API_URL;
 
-const validate = require('./src/middlewares/validate');
+const validate = require('./src/middlewares/validateRegister');
 const register = require('./src/routes/v1/registerController.js.js')
 
 
